@@ -4,5 +4,5 @@ Practicing my Front End skills
 ---
 Code- HTML CSS JS
 ---
-![.](Images\finalStartingpage.png)
-![.](Images\finalClone.png)
+![.](Netflix Clone/Images/finalStartingpage.png)
+![.](Netflix Clone/Images/finalClone.png)
