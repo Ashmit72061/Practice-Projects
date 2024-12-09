@@ -1,0 +1,32 @@
+*{
+    text-align: center;
+}
+
+#container{
+    background-color: rgba(0,0,0,0.1);
+    width: 90vw;
+    height:90vh;
+    margin: 0 auto;
+    border: 4px groove red;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 2vw; */
+}
+
+#red{
+    background-color: red;
+    padding: 10px;
+    border: 0;
+    margin-bottom: 5px;
+}
+#blue{
+    background-color: blue;
+    padding: 10px;
+    border: 0;
+}
+
+#noOfGrid{
+    padding: 10px;
+    border: 0;
+    background-color: bisque;
+}

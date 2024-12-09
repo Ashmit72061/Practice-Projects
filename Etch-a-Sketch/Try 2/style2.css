@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+    margin: 0;
+}
+
+#container{
+    border: 2px solid black;
+    height: 80vh;
+    margin: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.red, .blue{
+    color: yellow;
+}

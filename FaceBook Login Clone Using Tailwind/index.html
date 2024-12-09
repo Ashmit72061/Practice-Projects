@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" type="image/x-icon" href="icons8-facebook-48.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#F1F4F7]">
+    <div id="main" class="flex mx-auto items-center h-screen">
+        <div id="left" class="flex-1 flex flex-col justify-center items-center">
+                <img src="facebookLogo.svg" alt="Facebook" class="w-1/2">
+                <div class="text-3xl font-semibold w-11/12 pl-44">Facebook helps you connect and share with the people in your life.</div>
+        </div>
+        <div id="right" class=" flex flex-col flex-1 items-center gap-5">
+            <div id="box" class="p-4 rounded-lg bg-white flex flex-col gap-3 w-1/2 shadow-lg">
+                <input type="text" id="email" class="block border rounded placeholder:text-xl p-3 shadow-inner focus:border-2 focus:border-black"  placeholder="Email address or phone number">
+                <input type="password" id="password" class="block border rounded p-3 placeholder:text-xl shadow-inner" placeholder="Password">
+                <button id="login" class="block text-white bg-blue-600 hover:bg-blue-500 py-2 text-2xl font-semibold rounded">Login</button>
+                <a href="" id="forgotpass" class="block text-blue-700 hover:underline text-center">Forgotten Password?</a>
+                <hr>
+                <button id="createNewAccount" class="block text-white bg-green-500 rounded text-xl font-bold py-3 w-1/2 text-center mx-auto">Create new account</button>
+            </div>
+            <div id="belowBox" class="text-sm">
+                <span class="font-bold">Create a Page</span>
+                <span>for a celebrity, brand or business.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
