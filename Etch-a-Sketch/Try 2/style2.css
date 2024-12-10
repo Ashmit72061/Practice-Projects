@@ -17,6 +17,12 @@
 .blue{
     background-color: blue;
 }
-.red, .blue{
+.green{
+    background-color: green;
+}
+.eraser{
+    background-color: white;
+}
+.red, .blue, .green{
     color: yellow;
 }
